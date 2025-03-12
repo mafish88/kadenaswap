@@ -24,8 +24,7 @@
     "styled-components": "^5.3.5",
     "throttle-debounce": "^3.0.1",
     "yup": "^0.32.11"
-  },
-  "scripts": {
+  },  "scripts": {
     "start:pact": "rm -Rf ./log && mkdir log && pact --serve ./pact-local/server.conf",
     "start:deploy": "./pact-local/initialize.sh 9001",
     "start": "react-scripts start",
